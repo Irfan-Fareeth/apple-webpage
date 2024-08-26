@@ -1,0 +1,19 @@
+.subbar-content
+{
+    color: white;
+    
+}
+.subbar
+{
+    display: flex;
+    background-color: #272424;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    text-align: center;
+}
+a
+{
+    color: rgba(79, 142, 214, 0.733);
+    text-decoration: none;
+}

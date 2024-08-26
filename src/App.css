@@ -1,0 +1,14 @@
+.section-wrap
+{
+    display: grid;
+    grid-template-rows:max-content auto max-content auto max-content;
+    grid-template-columns: 100%;
+    gap: 10px;
+}
+
+@media screen and (max-width: 640) {
+   
+    .thirdmain{
+        height: 500px;
+        }
+}

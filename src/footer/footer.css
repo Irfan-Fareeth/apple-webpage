@@ -1,0 +1,139 @@
+.footer-content
+{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    height: 100%;
+    width: 100%;
+    padding-right: 10px;
+}
+.footer-li
+{
+    margin-bottom: 10px;
+    list-style-type: none;
+
+ 
+}
+footer
+{
+    background-color: aliceblue;
+    max-height: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    width: 100%;
+    *{color: grey;}
+}
+.columns5 
+{
+    display: flex;
+    justify-content: space-around;
+    
+
+    border-top: 1px solid grey;
+    padding-top: 20px;
+    border-style: dotted;
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+    
+}
+footer .columns5 li
+{
+    list-style-type: none;
+}
+footer .columns5 a
+{
+    text-decoration: none;
+    color: black;
+}
+h3
+{
+    font-size: 1rem;
+}
+.ac-gf-directory-column-section ul
+{
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.footer-content section
+{
+    padding-left: 2%;
+    padding-right: 2%;
+}
+.firstul
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.under-footer
+{
+    display: flex;
+    flex-wrap: wrap;
+ 
+}
+.ul-footer
+{
+    width: 100%;
+    display: flex;
+    padding-left: 0px;
+    gap: 20px;
+}
+.ul-footer li
+{
+    list-style-type: none;
+    border-right: 1px solid grey;
+    padding-right: 7px;
+    a{
+        text-decoration: none;
+        color: grey;
+    }
+}
+.last-footer
+{
+    display: flex;
+    flex-direction: column;
+    font-size: 12px;
+}
+.last1-footer
+{
+    padding: 3%;
+    padding-left: 0px;
+    
+    border-bottom: 1px solid grey;
+    border-style: dashed;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    margin-bottom: 2%;
+}
+
+.foot-head 
+{
+    color: black;
+}
+.rescolumns5
+{
+    display: none;
+    
+}
+.rescolumns5 li
+{
+    list-style-type: none;
+    color: rgb(93, 93, 241);
+    border-bottom:1px solid grey;
+    
+}
+
+@media screen and (max-width: 640px) {
+    .columns5
+    {
+        display: none;
+    }
+    .rescolumns5
+    {
+        display: contents;
+        margin-right: 15px;
+    }
+  }

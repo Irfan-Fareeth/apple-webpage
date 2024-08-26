@@ -1,0 +1,118 @@
+.navback {
+    position: -webkit-sticky; 
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 1000; 
+    background-color: grey;
+  }
+  
+
+  .nab a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+  }
+  
+
+  .navs li span:hover {
+    background-color: black;
+  }
+  
+ 
+  .nab {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10px;
+  }
+  
+
+  .content {
+    padding-top: 60px; 
+  }
+  
+  .navs li {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .navs {
+    display: flex;
+    gap: 35px;
+  }
+  
+  nav {
+    display: flex;
+    gap: 45px;
+    margin-top: 0px;
+    padding-left: 10px;
+    padding-right: 10px;
+    overflow: hidden;
+  }
+  
+  header {
+    display: flex;
+    justify-content: center;
+    height: 2rem;
+  }
+  
+  .applelogo, .searchbutton {
+    display: flex;
+    align-items: center;
+    color: white;
+  }
+  
+  .staticnav {
+    backdrop-filter: blur(20px);
+    opacity: 0.5;
+    color: white;
+    background-color: black;
+    height: 45px;
+  }
+  
+  .lasttwo {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .lasttwo1
+  {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: none;
+  }
+  @media screen and (max-width: 1100px) {
+    nav
+    {
+        gap: 10px;
+    }
+    .navs
+    {
+        gap: 10px;
+    }
+  }
+  @media screen and (max-width: 840px)
+  {
+    .navs, .applelogo
+    {
+        display:none;
+    }
+    .staticnav
+    {
+        justify-content: flex-end;
+    }
+    nav{
+        gap: 20px;
+    }
+    .lasttwo1{
+        display:flex;
+    }
+  }

@@ -1,0 +1,33 @@
+
+   .main
+  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+    height: 100%;
+  }
+  .cop
+  {
+    width: 100%;
+    height: 100%;
+  }
+  .secondmain
+  {
+    height: 700px;
+  }
+  @media screen and (max-width:550px)
+  {
+    .secondmain
+    {
+      height: 400px;
+    }
+  }
+  @media screen and (max-width:400px)
+  {
+    .secondmain
+    {
+      height: 350px;
+    }
+  }

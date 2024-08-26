@@ -1,0 +1,20 @@
+.carousel-container {
+    width: 100%;
+    height: 100%;
+  }
+
+img {
+    width: 100%;
+    height: 100%; /* Maintain aspect ratio */
+    
+    object-fit: cover;
+    
+    
+    
+  }
+  
+  .slide,.carousel-inner, .carousel-item{
+    width: 100%;
+    height: 100%;
+    
+  }
