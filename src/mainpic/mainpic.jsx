@@ -8,7 +8,7 @@ const mainpic = () => {
         <div className="image-wrapper">
         
         <video autoPlay muted loop className="video-background">
-            <source src="../public/WhatsApp Video 2024-08-23 at 00.49.12_e6cf1d80.mp4" type="video/mp4"/>
+            <source src="../WhatsApp Video 2024-08-23 at 00.49.12_e6cf1d80.mp4" type="video/mp4"/>
         </video>
         <div className='content'>
                 <h1>"Think Different, Live Apple"</h1>
